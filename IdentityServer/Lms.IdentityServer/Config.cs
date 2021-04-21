@@ -16,6 +16,7 @@ namespace Lms.IdentityServer
                    {
                        new ApiResource("resource_catalog"){Scopes={"catalog_fullpermission" }},
                        new ApiResource("resource_photo_stock"){Scopes={"photo_stock_fullpermission" }},
+                       new ApiResource("resource_basket"){Scopes={"basket_fullpermission" }},
                        new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
                    };
 
@@ -33,6 +34,7 @@ namespace Lms.IdentityServer
             {
                 new ApiScope("catalog_fullpermission", "Catalog API full erisim"),
                 new ApiScope("photo_stock_fullpermission", "PhotoStock API full erisim"),
+                new ApiScope("basket_fullpermission", "PhotoStock API full erisim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 

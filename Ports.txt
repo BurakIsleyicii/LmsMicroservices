@@ -3,3 +3,4 @@ IdentityServer -> http://localhost:5001
 Services;
 --CatalogAPI -> http://localhost:5011
 --PhotoStockAPI -> http://localhost:5012
+--PhotoStockAPI -> http://localhost:5013
